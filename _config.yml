@@ -1,1 +1,36 @@
-theme: jekyll-theme-architect
+---
+title: Lê Hoàng Anh Tú
+description: Blogging about everything I like
+baseurl: ''
+url: http://anhtus.github.io
+username: Anh Tú
+user_description: A Web Developer
+user_title: Kudo
+email: anhtulk2505@gmail.com
+twitter_username: anhtu2505
+github_username: anhtus
+gplus_username: 107458005734150440000
+disqus_username: lorem_ipsum
+markdown: kramdown
+highlighter: rouge
+permalink: "/:title/"
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+links:
+- title: Home
+  url: "/"
+- title: Categories
+  url: "/categories"
+- title: Tags
+  url: "/tags"
+- title: About
+  url: "/about"
+exclude:
+- package.json
+- src
+- node_modules
+gems:
+- jekyll-admin
